@@ -1,10 +1,7 @@
 {
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
-    "builder": "NIXPACKS",
-    "watchPatterns": [
-      "/streamlit-demo/**"
-    ]
+    "builder": "NIXPACKS"
   },
   "deploy": {
     "numReplicas": 1,
