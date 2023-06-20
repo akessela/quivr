@@ -1,7 +1,7 @@
 {
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
-     "builder": "buildpack",
+     "builder": "DOCKERFILE",
     "watchPatterns": [
       "streamlit-demo/**",
       "backend/**",
